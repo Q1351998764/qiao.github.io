@@ -1,6 +1,6 @@
 # memebox generating
 
-PAGELANG?=en
+PAGELANG?=zh
 
 TITLE?=MemeBox
 DESC?=Joy for Everyone
