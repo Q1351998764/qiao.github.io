@@ -13,7 +13,7 @@ do
     echo Converting "'${doc:4}'" ...
     cat > "text/${doc:4:-3}.html" <<EOF
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh">
 
 <head>
     <meta charset="utf-8">
@@ -33,7 +33,7 @@ do
 
 <body>
     <main class="container">
-        <h1>MemeBox | <a href="/text">Text memes</a></h1>
+        <h1>MemeBox | <a href="/text">文字梗</a></h1>
         <article id="view">
             <github-md>
 EOF
@@ -43,7 +43,7 @@ EOF
         </article>
 
         <footer id="footer">
-            <p>** Footer **</p>
+            <p>** 有趣的图片 **</p>
         </footer>
     </main>
 </body>

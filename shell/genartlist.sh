@@ -18,7 +18,7 @@ echo "Generating article directory..."
 
 cat > "text/index.html" <<EOF
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh">
 
 <head>
     <meta charset="utf-8">
@@ -38,7 +38,7 @@ cat > "text/index.html" <<EOF
 
 <body>
     <main class="container">
-        <h1>MemeBox | <a href="/">Picture memes</a></h1>
+        <h1>MemeBox | <a href="/">图片梗</a></h1>
         <h5 id="description"></h5>
         <article id="view">
             <github-md>
@@ -59,7 +59,7 @@ cat >> "text/index.html" <<EOF
         </article>
 
         <footer id="footer">
-            <p>** Footer **</p>
+            <p>** 有趣的图片 **</p>
         </footer>
     </main>
 </body>
