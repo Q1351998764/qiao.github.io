@@ -5,7 +5,7 @@ PAGELANG?=zh
 TITLE?=MemeBox
 DESC?=Joy for Everyone
 TDESC?=> _Text memes description._
-FOOTER?=** Footer **
+FOOTER?=** 有趣的图片 **
 
 ifeq (${PAGELANG}, zh)
 T_MEMEPIC?=图片梗
